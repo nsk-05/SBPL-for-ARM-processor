@@ -10,3 +10,7 @@ The SBPL and sbpl_lattice_planner algorithms works well in x86 processors but no
     make
 #### Install the sbpl library in local system
     sudo make install 
+
+### BUILD as ros package
+    cd <Your ros workspace>
+    catkin_make
